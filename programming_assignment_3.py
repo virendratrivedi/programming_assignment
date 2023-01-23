@@ -68,7 +68,7 @@ else:
 
 # # 5. Write a Python Program to Print all Prime Numbers in an Interval of 1-10000?
 
-# In[38]:
+# In[42]:
 
 
 def is_prime(n):
@@ -81,7 +81,7 @@ def is_prime(n):
                 status = False
     return status
 
-for n in range(1,10000):
+for n in range(1,10001):
     if is_prime(n):
         if n==97:
             print (n)
